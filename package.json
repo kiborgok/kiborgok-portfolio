@@ -1,0 +1,32 @@
+{
+  "name": "kiborgokportfolio",
+  "version": "1.0.0",
+  "description": "Alex kiborgok portfolio",
+  "main": "index.js",
+  "engines": {
+    "npm": "6.13.6",
+    "node": "12.16.2"
+  },
+  "scripts": {
+    "begin": "npm run build && node index.js",
+    "start": "node index.js",
+    "start:original": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node index.js",
+    "start:dev": "concurrently \"nodemon --ignore 'frontend/*'\" \"npm run frontend\"",
+    "client": "cd frontend && npm run start",
+    "install": "cd frontend && npm install",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "Express",
+    "node",
+    "react"
+  ],
+  "author": "kiborgok",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
