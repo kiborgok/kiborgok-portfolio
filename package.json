@@ -4,8 +4,8 @@
   "description": "Alex kiborgok portfolio",
   "main": "index.js",
   "engines": {
-    "npm": "6.13.6",
-    "node": "12.16.2"
+    "npm": "7.6.2",
+    "node": "14.4.0"
   },
   "scripts": {
     "begin": "npm run build && node index.js",

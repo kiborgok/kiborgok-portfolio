@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 import Layout from '../../components/layout/Layout';
 import { SectionTitle, Pill } from '../../styles';
 import { ProjectItem, ProjectTitle, SkillContainer } from './styles';
@@ -12,13 +13,13 @@ const Projects = ({ user }) => {
           <ProjectItem >
             <ProjectTitle>Covid19 Estimator Web App</ProjectTitle>
             <SkillContainer>
-              <Pill><a href="https://safe-chamber-58160.herokuapp.com/">Covid19 Estimator Web App</a></Pill >
+              <Pill><NavLink to="https://safe-chamber-58160.herokuapp.com/">Covid19 Estimator Web App</NavLink></Pill >
             </SkillContainer>
           </ProjectItem>
           <ProjectItem >
             <ProjectTitle>Quick Credit Web App</ProjectTitle>
             <SkillContainer>
-              <Pill><a href="https://quickcredit-webapp-api.herokuapp.com/">Quick Credit Web App</a></Pill >
+              <Pill><NavLink to="https://quickcredit-webapp-api.herokuapp.com/">Quick Credit Web App</NavLink></Pill >
             </SkillContainer>
           </ProjectItem>
           {user.projects.map((project, i) => (
