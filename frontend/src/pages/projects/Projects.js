@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
 import Layout from '../../components/layout/Layout';
 import { SectionTitle, Pill } from '../../styles';
 import { ProjectItem, ProjectTitle, SkillContainer } from './styles';
@@ -14,8 +13,11 @@ const Projects = ({ user }) => {
             <ProjectTitle>Covid19 Estimator Web App</ProjectTitle>
             <SkillContainer>
               <Pill style={{ backgroundColor: "darkgreen" }}>
-                <a href="https://safe-chamber-58160.herokuapp.com/">
-                  Covid19 Estimhrefr Web App
+                <a
+                  href="https://safe-chamber-58160.herokuapp.com/"
+                  target="_blank"
+                >
+                  Covid19 Estimator Web App
                 </a>
               </Pill>
             </SkillContainer>
@@ -24,7 +26,10 @@ const Projects = ({ user }) => {
             <ProjectTitle>Quick Credit Web App</ProjectTitle>
             <SkillContainer>
               <Pill style={{ backgroundColor: "darkgreen" }}>
-                <a href="https://quickcredit-webapp-api.herokuapp.com/">
+                <a
+                  href="https://quickcredit-webapp-api.herokuapp.com/"
+                  target="_blank"
+                >
                   Quick Credit Web App
                 </a>
               </Pill>
