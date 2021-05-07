@@ -13,13 +13,15 @@ const Projects = ({ user }) => {
           <ProjectItem >
             <ProjectTitle>Covid19 Estimator Web App</ProjectTitle>
             <SkillContainer>
-              <Pill><NavLink to="https://safe-chamber-58160.herokuapp.com/">Covid19 Estimator Web App</NavLink></Pill >
+              <Pill style={{color:"white"}}>
+                <a to="https://safe-chamber-58160.herokuapp.com/">Covid19 Estimator Web App</a>
+              </Pill >
             </SkillContainer>
           </ProjectItem>
           <ProjectItem >
             <ProjectTitle>Quick Credit Web App</ProjectTitle>
             <SkillContainer>
-              <Pill><NavLink to="https://quickcredit-webapp-api.herokuapp.com/">Quick Credit Web App</NavLink></Pill >
+              <Pill><a to="https://quickcredit-webapp-api.herokuapp.com/">Quick Credit Web App</a></Pill >
             </SkillContainer>
           </ProjectItem>
           {user.projects.map((project, i) => (
