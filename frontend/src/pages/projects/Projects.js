@@ -10,18 +10,24 @@ const Projects = ({ user }) => {
       <div>
         <SectionTitle>Projects</SectionTitle>
         <ul>
-          <ProjectItem >
+          <ProjectItem>
             <ProjectTitle>Covid19 Estimator Web App</ProjectTitle>
             <SkillContainer>
-              <Pill style={{color:"white"}}>
-                <a to="https://safe-chamber-58160.herokuapp.com/">Covid19 Estimator Web App</a>
-              </Pill >
+              <Pill style={{ backgroundColor: "darkgreen" }}>
+                <a href="https://safe-chamber-58160.herokuapp.com/">
+                  Covid19 Estimhrefr Web App
+                </a>
+              </Pill>
             </SkillContainer>
           </ProjectItem>
-          <ProjectItem >
+          <ProjectItem>
             <ProjectTitle>Quick Credit Web App</ProjectTitle>
             <SkillContainer>
-              <Pill><a to="https://quickcredit-webapp-api.herokuapp.com/">Quick Credit Web App</a></Pill >
+              <Pill style={{ backgroundColor: "darkgreen" }}>
+                <a href="https://quickcredit-webapp-api.herokuapp.com/">
+                  Quick Credit Web App
+                </a>
+              </Pill>
             </SkillContainer>
           </ProjectItem>
           {user.projects.map((project, i) => (
