@@ -15,6 +15,7 @@ const Projects = ({ user }) => {
                 <a
                   href="https://todo-frontend-mbj1ksm5u-kiborgok.vercel.app/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   To-do web app
                 </a>
@@ -27,6 +28,7 @@ const Projects = ({ user }) => {
                 <a
                   href="https://nextjs-blog-kohl-eta-32.vercel.app/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   A blog
                 </a>
@@ -39,6 +41,7 @@ const Projects = ({ user }) => {
                 <a
                   href="https://quickcredit-webapp-api.herokuapp.com/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Quick Credit
                 </a>
@@ -51,6 +54,7 @@ const Projects = ({ user }) => {
                 <a
                   href="https://safe-chamber-58160.herokuapp.com/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Covid19 Estimator
                 </a>
