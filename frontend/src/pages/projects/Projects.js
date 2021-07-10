@@ -17,7 +17,7 @@ const Projects = ({ user }) => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  To-do web app
+                  Todos app
                 </a>
               </Pill>
             </SkillContainer>
