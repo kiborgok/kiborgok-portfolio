@@ -10,32 +10,58 @@ const Projects = ({ user }) => {
         <SectionTitle>Projects</SectionTitle>
         <ul>
           <ProjectItem>
-            <ProjectTitle>Covid19 Estimator Web App</ProjectTitle>
+            <ProjectTitle>To-do web app</ProjectTitle>
             <SkillContainer>
               <Pill style={{ backgroundColor: "darkgreen" }}>
                 <a
-                  href="https://safe-chamber-58160.herokuapp.com/"
+                  href="https://todo-frontend-mbj1ksm5u-kiborgok.vercel.app/"
                   target="_blank"
                 >
-                  Covid19 Estimator Web App
+                  To-do web app
                 </a>
               </Pill>
             </SkillContainer>
           </ProjectItem>
           <ProjectItem>
-            <ProjectTitle>Quick Credit Web App</ProjectTitle>
+            <ProjectTitle>A blog</ProjectTitle>
+            <SkillContainer>
+              <Pill style={{ backgroundColor: "darkgreen" }}>
+                <a
+                  href="https://nextjs-blog-kohl-eta-32.vercel.app/"
+                  target="_blank"
+                >
+                  A blog
+                </a>
+              </Pill>
+            </SkillContainer>
+          </ProjectItem>
+          <ProjectItem>
+            <ProjectTitle>Quick Credit</ProjectTitle>
             <SkillContainer>
               <Pill style={{ backgroundColor: "darkgreen" }}>
                 <a
                   href="https://quickcredit-webapp-api.herokuapp.com/"
                   target="_blank"
                 >
-                  Quick Credit Web App
+                  Quick Credit
                 </a>
               </Pill>
             </SkillContainer>
           </ProjectItem>
-          {user.projects.map((project, i) => (
+          <ProjectItem>
+            <ProjectTitle>Covid19 Estimator</ProjectTitle>
+            <SkillContainer>
+              <Pill style={{ backgroundColor: "darkgreen" }}>
+                <a
+                  href="https://safe-chamber-58160.herokuapp.com/"
+                  target="_blank"
+                >
+                  Covid19 Estimator
+                </a>
+              </Pill>
+            </SkillContainer>
+          </ProjectItem>
+          {/* {user.projects.map((project, i) => (
             <ProjectItem key={i}>
               <ProjectTitle>{project.name}</ProjectTitle>
               <p>{project.summary}</p>
@@ -45,7 +71,7 @@ const Projects = ({ user }) => {
                 ))}
               </SkillContainer>
             </ProjectItem>
-          ))}
+          ))} */}
         </ul>
       </div>
     </Layout>
