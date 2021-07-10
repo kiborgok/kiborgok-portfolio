@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../../components/layout/Layout';
 import { SectionTitle, Pill } from '../../styles';
-import { ProjectItem, ProjectTitle, SkillContainer } from './styles';
+import { ProjectItem, SkillContainer } from './styles';
 
 const Projects = ({ user }) => {
   return (
@@ -10,7 +10,6 @@ const Projects = ({ user }) => {
         <SectionTitle>Projects</SectionTitle>
         <ul>
           <ProjectItem>
-            <ProjectTitle>To-do web app</ProjectTitle>
             <SkillContainer>
               <Pill style={{ backgroundColor: "darkgreen" }}>
                 <a
@@ -23,7 +22,6 @@ const Projects = ({ user }) => {
             </SkillContainer>
           </ProjectItem>
           <ProjectItem>
-            <ProjectTitle>A blog</ProjectTitle>
             <SkillContainer>
               <Pill style={{ backgroundColor: "darkgreen" }}>
                 <a
@@ -36,7 +34,6 @@ const Projects = ({ user }) => {
             </SkillContainer>
           </ProjectItem>
           <ProjectItem>
-            <ProjectTitle>Quick Credit</ProjectTitle>
             <SkillContainer>
               <Pill style={{ backgroundColor: "darkgreen" }}>
                 <a
@@ -49,7 +46,6 @@ const Projects = ({ user }) => {
             </SkillContainer>
           </ProjectItem>
           <ProjectItem>
-            <ProjectTitle>Covid19 Estimator</ProjectTitle>
             <SkillContainer>
               <Pill style={{ backgroundColor: "darkgreen" }}>
                 <a

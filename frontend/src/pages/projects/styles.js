@@ -7,9 +7,9 @@ export const ProjectItem = styled.li`
   border-bottom: 1px solid ${white};
 `
 
-export const ProjectTitle = styled.h4`
-  font-weight: bold;
-`
+// export const ProjectTitle = styled.h4`
+//   font-weight: bold;
+// `
 
 export const SkillContainer = styled.div`
   margin-top: 1.2rem;
