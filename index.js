@@ -14,15 +14,15 @@ const cors = require("cors");
     app.use(express.urlencoded({ extended: true }));
     app.use(bodyParser.json());
 
-    // // Serve static assets if in production
-    // if (process.env.NODE_ENV === "production") {
-    //   // Set static folder
-    //   app.use(express.static("frontend/build"));
-    // }
+    // Serve static assets if in production
+    if (process.env.NODE_ENV === "production") {
+      // Set static folder
+      app.use(express.static("frontend/build"));
+    }
 
-    // app.get("*", (req, res) => {
-    //   res.sendFile(path.join(__dirname, "./frontend/build/index.html"));
-    // });
+    app.get("*", (req, res) => {
+      res.sendFile(path.join(__dirname, "./frontend/build/index.html"));
+    });
 
     app.listen(port, () => console.log(`Listening on port ${port}`));
   } catch (err) {
