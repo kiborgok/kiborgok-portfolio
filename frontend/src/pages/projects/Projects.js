@@ -13,6 +13,19 @@ const Projects = ({ user }) => {
             <SkillContainer>
               <Pill style={{ backgroundColor: "darkgreen" }}>
                 <a
+                  href="https://car-hire-frontend.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Super movies app
+                </a>
+              </Pill>
+            </SkillContainer>
+          </ProjectItem>
+          <ProjectItem>
+            <SkillContainer>
+              <Pill style={{ backgroundColor: "darkgreen" }}>
+                <a
                   href="https://todo-frontend-mbj1ksm5u-kiborgok.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
